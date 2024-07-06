@@ -1,0 +1,27 @@
+/*font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Heavy', sans-serif;
+font-family: 'Gilroy-Light', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif;*/
+:root{
+  --font-regular: "Gilroy-Regular", sans-serif;
+  --font-light: "Gilroy-Light", sans-serif;
+  --font-medium: "Gilroy-Medium", sans-serif;
+  --font-bold: "Gilroy-Bold", sans-serif;
+  --font-heavy: "Gilroy-Heavy", sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: var(--font-regular);
+}
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+ul,li,ol,menu{
+  list-style-type: none;
+}
